@@ -6,6 +6,7 @@
 /* =================================== */
 /*  Basic Style 
 /* =================================== */
+
 ::-webkit-input-placeholder {
   /* WebKit, Blink, Edge */
   color: #cccccc;
@@ -701,6 +702,15 @@ td, th {
   bottom: 0;
 }
 
+.img-fluid {
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 40%;
+}
+.js-count-particles{ font-size: 1.1em; } #stats, .count-particles{ -webkit-user-select: none; margin-top: 5px; margin-left: 5px; } #stats{ border-radius: 3px 3px 0 0; overflow: hidden; } .count-particles{ border-radius: 0 0 3px 3px; }
+
 .container.fullwidth {
   width: 100%;
 }
@@ -745,6 +755,12 @@ td, th {
   cursor: pointer;
 }
 
+.special-btn {
+  color: #00ff8c;
+}
+.play-button {
+  padding:1.2em
+}
 .primary-btn:focus {
   outline: none;
 }
@@ -965,7 +981,7 @@ td, th {
     display: block !important;
     font-size: 36px !important;
     position: absolute;
-    top: 0;
+    top: -18px;
     right: 0;
   }
 }
@@ -1110,7 +1126,6 @@ td, th {
 }
 
 .signle-service figcaption {
-  background: #fff;
   padding: 40px 20px;
 }
 
