@@ -33,7 +33,6 @@
 			
 body {
   font: normal 16px/1.5 "Helvetica Neue", sans-serif;
-  color: #fff;
   overflow-x: hidden;
 }  /* INTRO SECTION
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -51,9 +50,14 @@ h1 {
 
 /* TIMELINE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
+.timeline {
+	
+	background: #f9f9ff;
+	padding-top: 2.4em
+}
 .timeline ul {
-  background: #456990;
+	color: #f9f9ff;
+  
   padding: 50px 0;
 }
 
@@ -63,7 +67,7 @@ h1 {
   width: 6px;
   margin: 0 auto;
   padding-top: 50px;
-  background: #fff;
+  background: #011627;
 }
 
 .timeline ul li::after {
@@ -204,7 +208,7 @@ time {
 									<li><a href="#token">Token</a></li>
 									<li><a href="#team">Team</a></li>
 									<li><a href="#protocol">Protocol</a></li>
-									<li><a href="#blog">Roadmap</a></li>
+									<li><a href="#roadmap">Roadmap</a></li>
 									<li><a href="#contact">DApp</a></li>
 								</ul>
 								<a href="#" class="mobile-btn"><span class="lnr lnr-menu"></span></a>
@@ -441,72 +445,7 @@ time {
 				</div>
 			</div>
 		</div>
-<<<<<<< HEAD
-		<section class="intro">
-  <div class="container">
-<h1>Roadmap & Milestones</h1>
-  </div>
-</section>
 
-<section class="timeline">
-  <ul>
-    <li>
-      <div>
-        <time>Sep 2017</time>Incorporation
-      </div>
-    </li>
-    <li>
-      <div>
-        <time>Feb 2018</time> Proof-of-concept, Development, smart contract, and wireframes design
-      </div>
-    </li>
-    <li>
-      <div>
-        <time>Apr 2018</time>Meritt Alpha version on Ropsten testnet
-      </div>
-    </li>
-    <li>
-      <div>
-        <time>May 2018</time>Token sale
-      </div>
-    </li>
-    <li>
-      <div>
-        <time>Aug 2018</time>ETH Mainnet 0.1 deployment
-      </div>
-    </li>
-    <li>
-      <div>
-        <time>Sept 2018</time>Integration of Whisper client chat, Ethereum P2P messaging protocol
-
-      </div>
-    </li>
-    <li>
-      <div>
-        <time>Nov 2018</time>Meritt app available on any smartphone
-
-      </div>
-    </li>
-    <li>
-      <div>
-        <time>Dec 2018</time>RSK integration / Bitcoin Lending
-
-      </div>
-    </li>
-    <li>
-      <div>
-        <time>Jun 2019</time>FIAT Lending
-
-      </div>
-    </li>
-    <li>
-      <div>
-        <time>Jun 2019</time>Meritt Scoring algorithm v0.2 release
-      </div>
-    </li>
-</section>
-=======
-	</section>
 	<section id="token" class="section-full">
 		<div class="container">
 			<div class="row justify-content-center">
@@ -525,7 +464,6 @@ time {
 			</div>
 		</div>
 	</section>
->>>>>>> 4df3293651a34b09c7260132eadd6ff35b62a3a5
 		<!-- End Roadmap -->
 		<!--Start Token Pie chart, staking included -->
 		<section id="token" class="section-full" style="display:none">
@@ -799,6 +737,70 @@ time {
 			</div>
 		</section>
 		<!-- End Protocol -->
+		 
+		  <section class="timeline" id="roadmap">
+			  <div class="section-title text-center">
+				<p class="text-uppercase">Roadmap</p>
+				<div class="container">
+						<h1>Roadmap and Milestones</h1>
+					</div>
+			</div>
+			<ul>
+			  <li>
+				<div>
+				  <time>Sep 2017</time>Incorporation
+				</div>
+			  </li>
+			  <li>
+				<div>
+				  <time>Feb 2018</time> Proof-of-concept, Development, smart contract, and wireframes design
+				</div>
+			  </li>
+			  <li>
+				<div>
+				  <time>Apr 2018</time>Meritt Alpha version on Ropsten testnet
+				</div>
+			  </li>
+			  <li>
+				<div>
+				  <time>May 2018</time>Token sale
+				</div>
+			  </li>
+			  <li>
+				<div>
+				  <time>Aug 2018</time>ETH Mainnet 0.1 deployment
+				</div>
+			  </li>
+			  <li>
+				<div>
+				  <time>Sept 2018</time>Integration of Whisper client chat, Ethereum P2P messaging protocol
+		  
+				</div>
+			  </li>
+			  <li>
+				<div>
+				  <time>Nov 2018</time>Meritt app available on any smartphone
+		  
+				</div>
+			  </li>
+			  <li>
+				<div>
+				  <time>Dec 2018</time>RSK integration / Bitcoin Lending
+		  
+				</div>
+			  </li>
+			  <li>
+				<div>
+				  <time>Jun 2019</time>FIAT Lending
+		  
+				</div>
+			  </li>
+			  <li>
+				<div>
+				  <time>Jun 2019</time>Meritt Scoring algorithm v0.2 release
+				</div>
+			  </li>
+		  </section>
 		<!-- Start Try the Dapp -->
 		<section id="contact" class="section-full gray-bg">
 			<div class="container">
